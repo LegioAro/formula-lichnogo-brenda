@@ -1,0 +1,16 @@
+.title-section {
+  font-family: var(--font-text-2);
+  font-size: 36px;
+  line-height: 133%;
+  margin-bottom: 52px;
+  b {
+    font-family: var(--font-bold);
+  }
+}
+
+@media (max-width: 768px) {
+  .title-section {
+    font-size: 28px;
+    margin-bottom: 30px;
+  }
+}

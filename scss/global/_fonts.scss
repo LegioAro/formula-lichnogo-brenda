@@ -1,0 +1,45 @@
+@font-face {
+  font-family: 'NeueMachina-Bold';
+  src: url('../fonts/neuemachina-bold.eot'); /* IE 9 Compatibility Mode */
+  src: url('../fonts/neuemachina-bold.eot?#iefix') format('embedded-opentype'),
+    /* IE < 9 */ url('../fonts/neuemachina-bold.woff2') format('woff2'),
+    /* Super Modern Browsers */ url('../fonts/neuemachina-bold.woff') format('woff'),
+    /* Firefox >= 3.6, any other modern browser */ url('../fonts/neuemachina-bold.ttf')
+      format('truetype'),
+    /* Safari, Android, iOS */ url('../fonts/neuemachina-bold.svg#neuemachina-bold') format('svg'); /* Chrome < 4, Legacy iOS */
+}
+
+@font-face {
+  font-family: 'NeueMachina-Regular';
+  src: url('../fonts/neuemachina-regular.eot'); /* IE 9 Compatibility Mode */
+  src: url('../fonts/neuemachina-regular.eot?#iefix') format('embedded-opentype'),
+    /* IE < 9 */ url('../fonts/neuemachina-regular.woff2') format('woff2'),
+    /* Super Modern Browsers */ url('../fonts/neuemachina-regular.woff') format('woff'),
+    /* Firefox >= 3.6, any other modern browser */ url('../fonts/neuemachina-regular.ttf')
+      format('truetype'),
+    /* Safari, Android, iOS */ url('../fonts/neuemachina-regular.svg#neuemachina-regular')
+      format('svg'); /* Chrome < 4, Legacy iOS */
+}
+
+@font-face {
+  font-family: 'NeueMachina-Ultrabold';
+  src: url('../fonts/neuemachina-ultrabold.eot'); /* IE 9 Compatibility Mode */
+  src: url('../fonts/neuemachina-ultrabold.eot?#iefix') format('embedded-opentype'),
+    /* IE < 9 */ url('../fonts/neuemachina-ultrabold.woff2') format('woff2'),
+    /* Super Modern Browsers */ url('../fonts/neuemachina-ultrabold.woff') format('woff'),
+    /* Firefox >= 3.6, any other modern browser */ url('../fonts/neuemachina-ultrabold.ttf')
+      format('truetype'),
+    /* Safari, Android, iOS */ url('../fonts/neuemachina-ultrabold.svg#neuemachina-ultrabold')
+      format('svg'); /* Chrome < 4, Legacy iOS */
+}
+
+@font-face {
+  font-family: 'Work Sans Medium';
+  src: url('../fonts/work_sans_medium.eot'); /* IE 9 Compatibility Mode */
+  src: url('../fonts/work_sans_medium.eot?#iefix') format('embedded-opentype'),
+    /* IE < 9 */ url('../fonts/work_sans_medium.woff2') format('woff2'),
+    /* Super Modern Browsers */ url('../fonts/work_sans_medium.woff') format('woff'),
+    /* Firefox >= 3.6, any other modern browser */ url('../fonts/work_sans_medium.ttf')
+      format('truetype'),
+    /* Safari, Android, iOS */ url('../fonts/work_sans_medium.svg#work_sans_medium') format('svg'); /* Chrome < 4, Legacy iOS */
+}
