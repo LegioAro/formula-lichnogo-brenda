@@ -3,7 +3,7 @@
   margin-bottom: 50px;
 
   &__wrapper {
-    padding: 94px 40px 78px;
+    padding: 94px 40px 43px;
     background-image: url(../img/header_bg.png);
     background-repeat: no-repeat;
     background-position: top center;
@@ -223,9 +223,9 @@
 }
 
 @media (max-width: 375px) {
-    .header {
-      &__title {
-        font-size: 50px;
-      }
+  .header {
+    &__title {
+      font-size: 50px;
     }
   }
+}
