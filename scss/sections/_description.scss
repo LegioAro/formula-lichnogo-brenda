@@ -190,6 +190,10 @@
     &__price-num {
       font-size: 50px;
     }
+    &__price-text,
+    &__price-num {
+      text-align: left;
+    }
   }
 }
 
