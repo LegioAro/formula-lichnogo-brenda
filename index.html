@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
+    <link rel="stylesheet" href="css/swiper.css" />
     <link rel="stylesheet" href="css/styles.css" />
 
     <title>Formula Lichnogo Brenda</title>
@@ -25,12 +25,12 @@
             <div class="header__text">Закрытое Telegram-сообщество Артема Нестеренко</div>
           </div>
           <div class="header__content">
-            <div class="header__text">
+            <div class="header__text tmpl">
               Развивайте экспертность, используйте эффективные инструменты, приумножайте продажи и
               привлекайте больше людей в бизнес
             </div>
           </div>
-          <div class="header__content">
+          <div class="header__content revers">
             <div class="header__btn">
               <button class="btn modal__btn" data-modal-src="popup">
                 <p>Подписаться на канал</p>
@@ -38,7 +38,10 @@
               </button>
               <div class="btn__text">Цена со скидкой 75%</div>
             </div>
-            <div class="header__desc">Стоимость подписки <span>$29 в месяц</span></div>
+            <div class="header__desc">
+              Стоимость подписки <br />
+              <span>$29 в месяц</span>
+            </div>
           </div>
         </div>
       </div>
@@ -115,14 +118,19 @@
           <div class="who__content">
             <div class="who__text">
               Даже если вы со мной недавно, эту фразу от меня вы слышали уже много раз.С нее я
-              начинаю каждое  свое видео, мастер-класс или онлайн-встречу. А моя аудитория знает
+              начинаю каждое свое видео, мастер-класс или онлайн-встречу. А моя аудитория знает
               точно: если звучит это приветствие, сейчас будет
             </div>
             <div class="who__imgs">
               <div class="who__img"><img src="img/who/1.png" alt="" /></div>
               <div class="who__img"><img src="img/who/2.png" alt="" /></div>
               <div class="who__img"><img src="img/who/3.png" alt="" /></div>
-              <div class="who__img"><img src="img/who/4.png" alt="" /></div>
+              <div class="who__img">
+                <picture>
+                  <source media="(max-width:768px)" srcset="img/who/4-1.png" />
+                  <img src="img/who/4.png" alt="Flowers" style="width: auto" />
+                </picture>
+              </div>
             </div>
           </div>
           <div class="who__items">
@@ -145,22 +153,24 @@
               </div>
               <div class="images__item-title-num">01</div>
             </div>
-            <div class="images__item-imgs tmpl-4">
-              <div class="images__item-img-block">
-                <div class="images__item-img"><img src="img/images/social/1.png" alt="" /></div>
-                <div class="images__item-img-text">YouTube 55,8К подписчиков</div>
-              </div>
-              <div class="images__item-img-block">
-                <div class="images__item-img"><img src="img/images/social/2.png" alt="" /></div>
-                <div class="images__item-img-text">Instagram 215К подписчиков</div>
-              </div>
-              <div class="images__item-img-block">
-                <div class="images__item-img"><img src="img/images/social/3.png" alt="" /></div>
-                <div class="images__item-img-text">Telegram 20,2К подписчиков</div>
-              </div>
-              <div class="images__item-img-block">
-                <div class="images__item-img"><img src="img/images/social/4.png" alt="" /></div>
-                <div class="images__item-img-text">Facebook 27,7К подписчиков</div>
+            <div class="images__item-imgs tmpl-4 slider-1 swiper">
+              <div class="swiper-wrapper">
+                <div class="images__item-img-block swiper-slide">
+                  <div class="images__item-img"><img src="img/images/social/1.png" alt="" /></div>
+                  <div class="images__item-img-text">YouTube 55,8К<span> подписчиков</span></div>
+                </div>
+                <div class="images__item-img-block swiper-slide">
+                  <div class="images__item-img"><img src="img/images/social/2.png" alt="" /></div>
+                  <div class="images__item-img-text">Instagram 215К <span> подписчиков</span></div>
+                </div>
+                <div class="images__item-img-block swiper-slide">
+                  <div class="images__item-img"><img src="img/images/social/3.png" alt="" /></div>
+                  <div class="images__item-img-text">Telegram 20,2К <span> подписчиков</span></div>
+                </div>
+                <div class="images__item-img-block swiper-slide">
+                  <div class="images__item-img"><img src="img/images/social/4.png" alt="" /></div>
+                  <div class="images__item-img-text">Facebook 27,7К <span> подписчиков</span></div>
+                </div>
               </div>
             </div>
           </div>
@@ -172,22 +182,24 @@
               </div>
               <div class="images__item-title-num">02</div>
             </div>
-            <div class="images__item-imgs tmpl-4">
-              <div class="images__item-img-block">
-                <div class="images__item-img"><img src="img/images/2/1.png" alt="" /></div>
-                <div class="images__item-img-text">424 заказа</div>
-              </div>
-              <div class="images__item-img-block">
-                <div class="images__item-img"><img src="img/images/2/2.png" alt="" /></div>
-                <div class="images__item-img-text">498 заказов</div>
-              </div>
-              <div class="images__item-img-block">
-                <div class="images__item-img"><img src="img/images/2/3.png" alt="" /></div>
-                <div class="images__item-img-text">1063 заказа</div>
-              </div>
-              <div class="images__item-img-block">
-                <div class="images__item-img"><img src="img/images/2/4.png" alt="" /></div>
-                <div class="images__item-img-text">2351 заказа</div>
+            <div class="images__item-imgs tmpl-4 slider-1 swiper">
+              <div class="swiper-wrapper">
+                <div class="images__item-img-block swiper-slide">
+                  <div class="images__item-img"><img src="img/images/2/1.png" alt="" /></div>
+                  <div class="images__item-img-text">424 заказа</div>
+                </div>
+                <div class="images__item-img-block swiper-slide">
+                  <div class="images__item-img"><img src="img/images/2/2.png" alt="" /></div>
+                  <div class="images__item-img-text">498 заказов</div>
+                </div>
+                <div class="images__item-img-block swiper-slide">
+                  <div class="images__item-img"><img src="img/images/2/3.png" alt="" /></div>
+                  <div class="images__item-img-text">1063 заказа</div>
+                </div>
+                <div class="images__item-img-block swiper-slide">
+                  <div class="images__item-img"><img src="img/images/2/4.png" alt="" /></div>
+                  <div class="images__item-img-text">2351 заказа</div>
+                </div>
               </div>
             </div>
           </div>
@@ -199,18 +211,20 @@
               </div>
               <div class="images__item-title-num">03</div>
             </div>
-            <div class="images__item-imgs tmpl-3 big">
-              <div class="images__item-img-block">
-                <div class="images__item-img"><img src="img/images/3/1.png" alt="" /></div>
-                <div class="images__item-img-text">Business ML Man</div>
-              </div>
-              <div class="images__item-img-block">
-                <div class="images__item-img"><img src="img/images/3/2.png" alt="" /></div>
-                <div class="images__item-img-text">Fostylen</div>
-              </div>
-              <div class="images__item-img-block">
-                <div class="images__item-img"><img src="img/images/3/3.png" alt="" /></div>
-                <div class="images__item-img-text">Ukrainian</div>
+            <div class="images__item-imgs tmpl-3 big slider-1 swiper">
+              <div class="swiper-wrapper">
+                <div class="images__item-img-block swiper-slide">
+                  <div class="images__item-img"><img src="img/images/3/1.png" alt="" /></div>
+                  <div class="images__item-img-text">Business ML Man</div>
+                </div>
+                <div class="images__item-img-block swiper-slide">
+                  <div class="images__item-img"><img src="img/images/3/2.png" alt="" /></div>
+                  <div class="images__item-img-text">Fostylen</div>
+                </div>
+                <div class="images__item-img-block swiper-slide">
+                  <div class="images__item-img"><img src="img/images/3/3.png" alt="" /></div>
+                  <div class="images__item-img-text">Ukrainian</div>
+                </div>
               </div>
             </div>
           </div>
@@ -222,18 +236,20 @@
               </div>
               <div class="images__item-title-num">04</div>
             </div>
-            <div class="images__item-imgs tmpl-3">
-              <div class="images__item-img-block">
-                <div class="images__item-img"><img src="img/images/4/1.png" alt="" /></div>
-                <div class="images__item-img-text">Фото 1</div>
-              </div>
-              <div class="images__item-img-block">
-                <div class="images__item-img"><img src="img/images/4/2.png" alt="" /></div>
-                <div class="images__item-img-text">Фото 2</div>
-              </div>
-              <div class="images__item-img-block">
-                <div class="images__item-img"><img src="img/images/4/3.png" alt="" /></div>
-                <div class="images__item-img-text">Фото 3</div>
+            <div class="images__item-imgs tmpl-3 slider-1 swiper">
+              <div class="swiper-wrapper">
+                <div class="images__item-img-block swiper-slide">
+                  <div class="images__item-img"><img src="img/images/4/1.png" alt="" /></div>
+                  <div class="images__item-img-text">Фото 1</div>
+                </div>
+                <div class="images__item-img-block swiper-slide">
+                  <div class="images__item-img"><img src="img/images/4/2.png" alt="" /></div>
+                  <div class="images__item-img-text">Фото 2</div>
+                </div>
+                <div class="images__item-img-block swiper-slide">
+                  <div class="images__item-img"><img src="img/images/4/3.png" alt="" /></div>
+                  <div class="images__item-img-text">Фото 3</div>
+                </div>
               </div>
             </div>
           </div>
@@ -245,22 +261,24 @@
               </div>
               <div class="images__item-title-num">05</div>
             </div>
-            <div class="images__item-imgs tmpl-5">
-              <div class="images__item-img-block">
-                <div class="images__item-img"><img src="img/images/5/1.png" alt="" /></div>
-                <div class="images__item-img-text">Время: 12:28</div>
-              </div>
-              <div class="images__item-img-block">
-                <div class="images__item-img"><img src="img/images/5/2.png" alt="" /></div>
-                <div class="images__item-img-text">Время: 12:46</div>
-              </div>
-              <div class="images__item-img-block">
-                <div class="images__item-img"><img src="img/images/5/3.png" alt="" /></div>
-                <div class="images__item-img-text">Время: 12:47</div>
-              </div>
-              <div class="images__item-img-block">
-                <div class="images__item-img"><img src="img/images/5/4.png" alt="" /></div>
-                <div class="images__item-img-text">Время: 12:47</div>
+            <div class="images__item-imgs tmpl-5 slider-2 swiper">
+              <div class="swiper-wrapper">
+                <div class="images__item-img-block swiper-slide">
+                  <div class="images__item-img"><img src="img/images/5/1.png" alt="" /></div>
+                  <div class="images__item-img-text">Время: 12:28</div>
+                </div>
+                <div class="images__item-img-block swiper-slide">
+                  <div class="images__item-img"><img src="img/images/5/2.png" alt="" /></div>
+                  <div class="images__item-img-text">Время: 12:46</div>
+                </div>
+                <div class="images__item-img-block swiper-slide">
+                  <div class="images__item-img"><img src="img/images/5/3.png" alt="" /></div>
+                  <div class="images__item-img-text">Время: 12:47</div>
+                </div>
+                <div class="images__item-img-block swiper-slide">
+                  <div class="images__item-img"><img src="img/images/5/4.png" alt="" /></div>
+                  <div class="images__item-img-text">Время: 12:47</div>
+                </div>
               </div>
             </div>
           </div>
@@ -272,14 +290,16 @@
               </div>
               <div class="images__item-title-num">06</div>
             </div>
-            <div class="images__item-imgs tmpl-2">
-              <div class="images__item-img-block">
-                <div class="images__item-img"><img src="img/images/6/1.png" alt="" /></div>
-                <div class="images__item-img-text">Текущая статистика</div>
-              </div>
-              <div class="images__item-img-block">
-                <div class="images__item-img"><img src="img/images/6/2.png" alt="" /></div>
-                <div class="images__item-img-text">Статистика через время</div>
+            <div class="images__item-imgs tmpl-2 slider-3 swiper">
+              <div class="swiper-wrapper">
+                <div class="images__item-img-block swiper-slide">
+                  <div class="images__item-img"><img src="img/images/6/1.png" alt="" /></div>
+                  <div class="images__item-img-text">Текущая статистика</div>
+                </div>
+                <div class="images__item-img-block swiper-slide">
+                  <div class="images__item-img"><img src="img/images/6/2.png" alt="" /></div>
+                  <div class="images__item-img-text">Статистика через время</div>
+                </div>
               </div>
             </div>
           </div>
@@ -364,48 +384,134 @@
     </section>
 
     <section class="telegram">
-      <div class="container small">
+      <div class="container">
         <div class="telegram__wrapper">
           <div class="telegram__title">
             <div class="title-section">Что внутри Telegram-сообщества</div>
           </div>
-          <div class="telegram__items">
-            <div class="telegram__item">
-              <div class="telegram__item-num">01</div>
-              <div class="telegram__item-img"><img src="img/telegram/1.svg" alt="" /></div>
-              <div class="telegram__item-text">
-                4 прямых эфира в каждый месяц со мной  и приглашенными экспертами
+          <div class="telegram__items slider-4 swiper">
+            <div class="swiper-wrapper">
+              <div class="telegram__item swiper-slide">
+                <div class="telegram__item-num">01</div>
+                <div class="telegram__item-img"><img src="img/telegram/1.svg" alt="" /></div>
+                <div class="telegram__item-text">
+                  4 прямых эфира в каждый месяц со мной и приглашенными экспертами
+                </div>
+              </div>
+              <div class="telegram__item swiper-slide">
+                <div class="telegram__item-num">02</div>
+                <div class="telegram__item-img"><img src="img/telegram/2.svg" alt="" /></div>
+                <div class="telegram__item-text">
+                  Только практические, проверенные инструменты для построения и развития Личного
+                  Бренда
+                </div>
+              </div>
+              <div class="telegram__item swiper-slide">
+                <div class="telegram__item-num">03</div>
+                <div class="telegram__item-img"><img src="img/telegram/3.svg" alt="" /></div>
+                <div class="telegram__item-text">
+                  Огромная библиотека материалов, которые вы можете изучать в любое удобное для вас
+                  время с любого гаджета
+                </div>
+              </div>
+              <div class="telegram__item swiper-slide">
+                <div class="telegram__item-num">04</div>
+                <div class="telegram__item-img"><img src="img/telegram/4.svg" alt="" /></div>
+                <div class="telegram__item-text">
+                  Разборы новейших технологий американских маркетологов
+                </div>
+              </div>
+              <div class="telegram__item swiper-slide">
+                <div class="telegram__item-num">05</div>
+                <div class="telegram__item-img"><img src="img/telegram/5.svg" alt="" /></div>
+                <div class="telegram__item-text">
+                  Изменения в мышлении через новые действия и выход на грандиозные результаты во
+                  всех жизненных сферах
+                </div>
               </div>
             </div>
-            <div class="telegram__item">
-              <div class="telegram__item-num">02</div>
-              <div class="telegram__item-img"><img src="img/telegram/2.svg" alt="" /></div>
-              <div class="telegram__item-text">
-                Только практические, проверенные инструменты для построения и развития Личного
-                Бренда
-              </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="moduls">
+      <div class="container small">
+        <div class="moduls__wrapper">
+          <div class="moduls__title">
+            <div class="title-section">
+              Формула <br />
+              личного бренда
             </div>
-            <div class="telegram__item">
-              <div class="telegram__item-num">03</div>
-              <div class="telegram__item-img"><img src="img/telegram/3.svg" alt="" /></div>
-              <div class="telegram__item-text">
-                Огромная библиотека материалов, которые вы можете изучать в любое удобное для вас
-                время с любого гаджета
+          </div>
+          <div class="moduls__items slider-5 swiper">
+            <div class="swiper-wrapper">
+              <div class="moduls__item swiper-slide">
+                <div class="moduls__item-title"><span>01</span>Модуль</div>
+                <div class="moduls__item-list">
+                  <div class="moduls__item-list-item"><p>Лаборатория личного бренда</p></div>
+                  <div class="moduls__item-list-item"><p>Образ</p></div>
+                  <div class="moduls__item-list-item"><p>Миссия</p></div>
+                  <div class="moduls__item-list-item"><p>Ценности/Убеждения</p></div>
+                  <div class="moduls__item-list-item"><p>Поведение</p></div>
+                  <div class="moduls__item-list-item"><p>Ваша Большая Идея</p></div>
+                </div>
               </div>
-            </div>
-            <div class="telegram__item">
-              <div class="telegram__item-num">04</div>
-              <div class="telegram__item-img"><img src="img/telegram/4.svg" alt="" /></div>
-              <div class="telegram__item-text">
-                Разборы новейших технологий американских маркетологов
+              <div class="moduls__item swiper-slide">
+                <div class="moduls__item-title"><span>02</span>Модуль</div>
+                <div class="moduls__item-list">
+                  <div class="moduls__item-list-item"><p>Легенда личного бренда</p></div>
+                  <div class="moduls__item-list-item"><p>Проблемы/потребности</p></div>
+                  <div class="moduls__item-list-item"><p>Ролевая модель</p></div>
+                  <div class="moduls__item-list-item"><p>Биография/Сторителлинг</p></div>
+                  <div class="moduls__item-list-item"><p>Способы коммуникации</p></div>
+                  <div class="moduls__item-list-item"></div>
+                </div>
               </div>
-            </div>
-            <div class="telegram__item">
-              <div class="telegram__item-num">05</div>
-              <div class="telegram__item-img"><img src="img/telegram/5.svg" alt="" /></div>
-              <div class="telegram__item-text">
-                Изменения в мышлении через новые действия и выход на грандиозные результаты во всех
-                жизненных сферах
+              <div class="moduls__item swiper-slide">
+                <div class="moduls__item-title"><span>03</span>Модуль</div>
+                <div class="moduls__item-list">
+                  <div class="moduls__item-list-item"><p>Упаковка Личного бренда</p></div>
+                  <div class="moduls__item-list-item"><p>Физические данные</p></div>
+                  <div class="moduls__item-list-item"><p>Подача контента</p></div>
+                  <div class="moduls__item-list-item"><p>Внешность</p></div>
+                  <div class="moduls__item-list-item"><p>Ухоженность</p></div>
+                  <div class="moduls__item-list-item"><p>Социальные сети</p></div>
+                  <div class="moduls__item-list-item"><p>Создание авторское методики</p></div>
+                  <div class="moduls__item-list-item"></div>
+                  <div class="moduls__item-list-item"></div>
+                </div>
+              </div>
+              <div class="moduls__item swiper-slide">
+                <div class="moduls__item-title"><span>04</span>Модуль</div>
+                <div class="moduls__item-list">
+                  <div class="moduls__item-list-item"><p>Маркетинг Личного бренда</p></div>
+                  <div class="moduls__item-list-item"><p>Монетизация бренда</p></div>
+                  <div class="moduls__item-list-item"><p>Ведение Ютуб</p></div>
+                  <div class="moduls__item-list-item"><p>Продуктовая линейка</p></div>
+                  <div class="moduls__item-list-item"><p>Инструменты продаж</p></div>
+                  <div class="moduls__item-list-item"><p>Ведение Инстаграм</p></div>
+                  <div class="moduls__item-list-item"><p>Общение с аудиторией</p></div>
+                  <div class="moduls__item-list-item"><p>Написание своей книги</p></div>
+                  <div class="moduls__item-list-item"><p>СМИ</p></div>
+                  <div class="moduls__item-list-item"><p>Пиар</p></div>
+                  <div class="moduls__item-list-item"></div>
+                  <div class="moduls__item-list-item"></div>
+                </div>
+              </div>
+              <div class="moduls__item swiper-slide">
+                <div class="moduls__item-title"><span>05</span>Модуль</div>
+                <div class="moduls__item-list">
+                  <div class="moduls__item-list-item"><p>Карта Успеха Личного бренда</p></div>
+                  <div class="moduls__item-list-item"><p>Ежедневные задачи</p></div>
+                  <div class="moduls__item-list-item"><p>Постановка публичной речи</p></div>
+                  <div class="moduls__item-list-item"><p>Самомотивация</p></div>
+                  <div class="moduls__item-list-item"><p>Календарь мероприятий</p></div>
+                  <div class="moduls__item-list-item"><p>Медийная стратегия</p></div>
+                  <div class="moduls__item-list-item"><p>Эффективность публичной личности</p></div>
+                  <div class="moduls__item-list-item"></div>
+                  <div class="moduls__item-list-item"></div>
+                </div>
               </div>
             </div>
           </div>
@@ -446,145 +552,147 @@
             </div>
           </div>
 
-          <div class="description__items">
-            <div class="description__item">
-              <div class="description__item-title">Особая Премиальная группа</div>
-              <div class="description__item-text">
-                <p>
-                  Для тех, кто уже зарабатывает или только собирается зарабатывать на экспертности и
-                  хочет сделать стремительный прорыв в этой нише, взяв технологию Артема и получив
-                  полное сопровождение от него и его команды.
-                </p>
-              </div>
-              <div class="description__item-price-wrapper">
-                <div class="description__item-price">
-                  <div class="description__item-price-text">
-                    Потенциал заработка с полученными знаниями
+          <div class="description__items slider-6 swiper">
+            <div class="swiper-wrapper">
+              <div class="description__item swiper-slide">
+                <div class="description__item-title">Особая Премиальная группа</div>
+                <div class="description__item-text">
+                  <p>
+                    Для тех, кто уже зарабатывает или только собирается зарабатывать на экспертности
+                    и хочет сделать стремительный прорыв в этой нише, взяв технологию Артема и
+                    получив полное сопровождение от него и его команды.
+                  </p>
+                </div>
+                <div class="description__item-price-wrapper">
+                  <div class="description__item-price">
+                    <div class="description__item-price-text">
+                      Потенциал заработка с полученными знаниями
+                    </div>
+                    <div class="description__item-price-num">∞</div>
                   </div>
-                  <div class="description__item-price-num">∞</div>
-                </div>
-                <div class="description__item-price">
-                  <div class="description__item-price-text">Ценность программы</div>
-                  <div class="description__item-price-num">$7000</div>
-                </div>
-              </div>
-            </div>
-            <div class="description__item">
-              <div class="description__item-title">Чемпионат мира по эффективности</div>
-              <div class="description__item-text">
-                <p>
-                  21 видео по 30 минут по прокачке личной эффективности, чтобы сдвинуться с места и
-                  совершить грандиозный прорыв во всех жизненных сферах.
-                </p>
-                <p>Волшебный пинок, который подтолкнет к крышесносным достижениям.</p>
-              </div>
-              <div class="description__item-price-wrapper">
-                <div class="description__item-price">
-                  <div class="description__item-price-text">Ценность программы</div>
-                  <div class="description__item-price-num">$2000</div>
+                  <div class="description__item-price">
+                    <div class="description__item-price-text">Ценность программы</div>
+                    <div class="description__item-price-num">$7000</div>
+                  </div>
                 </div>
               </div>
-            </div>
-            <div class="description__item">
-              <div class="description__item-title">Маркетинг и Рекрутинг</div>
-              <div class="description__item-text">
-                <p>
-                  Деньги в онлайн приносят только две эти вещи — маркетинг и рекрутинг Поэтому мы
-                  отбросили все лишнее и сконцентрировались только на этом:
-                </p>
-                <ul>
-                  <li>Как массово привлекать аудиторию через Интернет</li>
-                  <li>Как эффективно выстраивать с ней взаимоотношения</li>
-                  <li>Как продавать свой продукт или делать бизнес предложение</li>
-                </ul>
-              </div>
-              <div class="description__item-price-wrapper">
-                <div class="description__item-price">
-                  <div class="description__item-price-text">Ценность программы</div>
-                  <div class="description__item-price-num">$200</div>
+              <div class="description__item swiper-slide">
+                <div class="description__item-title">Чемпионат мира по эффективности</div>
+                <div class="description__item-text">
+                  <p>
+                    21 видео по 30 минут по прокачке личной эффективности, чтобы сдвинуться с места
+                    и совершить грандиозный прорыв во всех жизненных сферах.
+                  </p>
+                  <p>Волшебный пинок, который подтолкнет к крышесносным достижениям.</p>
+                </div>
+                <div class="description__item-price-wrapper">
+                  <div class="description__item-price">
+                    <div class="description__item-price-text">Ценность программы</div>
+                    <div class="description__item-price-num">$2000</div>
+                  </div>
                 </div>
               </div>
-            </div>
-            <div class="description__item">
-              <div class="description__item-title">Я-Легенда </div>
-              <div class="description__item-text">
-                <p>
-                  Запись легендарной годовой программы Артема Нестеренко по внедрению американской
-                  технологии запусков, которая превращает знания и опыт в миллионы. Стряхните пыль с
-                  вашей экспертности и позвольте ей сделать вас обеспеченным человеком.
-                </p>
-                <p>Внедрите технологию в 2023 году.</p>
-              </div>
-              <div class="description__item-price-wrapper">
-                <div class="description__item-price">
-                  <div class="description__item-price-text">Ценность программы</div>
-                  <div class="description__item-price-num">$1600</div>
+              <div class="description__item swiper-slide">
+                <div class="description__item-title">Маркетинг и Рекрутинг</div>
+                <div class="description__item-text">
+                  <p>
+                    Деньги в онлайн приносят только две эти вещи — маркетинг и рекрутинг Поэтому мы
+                    отбросили все лишнее и сконцентрировались только на этом:
+                  </p>
+                  <ul>
+                    <li>Как массово привлекать аудиторию через Интернет</li>
+                    <li>Как эффективно выстраивать с ней взаимоотношения</li>
+                    <li>Как продавать свой продукт или делать бизнес предложение</li>
+                  </ul>
+                </div>
+                <div class="description__item-price-wrapper">
+                  <div class="description__item-price">
+                    <div class="description__item-price-text">Ценность программы</div>
+                    <div class="description__item-price-num">$200</div>
+                  </div>
                 </div>
               </div>
-            </div>
-            <div class="description__item">
-              <div class="description__item-title">Распаковка личности + экспертности</div>
-              <div class="description__item-text">
-                <p>
-                  Пройдите от поиска ниши до первых 300 000 руб. на экспертности. Пройдите по
-                  коучинговому процессу распаковки экспертности и поймите настоящую ценность того,
-                  что знаете и умеете. У вас появится непоколебимая уверенность в своей
-                  экспертности.
-                </p>
-              </div>
-              <div class="description__item-price-wrapper">
-                <div class="description__item-price">
-                  <div class="description__item-price-text">Ценность программы</div>
-                  <div class="description__item-price-num">$649</div>
+              <div class="description__item swiper-slide">
+                <div class="description__item-title">Я-Легенда</div>
+                <div class="description__item-text">
+                  <p>
+                    Запись легендарной годовой программы Артема Нестеренко по внедрению американской
+                    технологии запусков, которая превращает знания и опыт в миллионы. Стряхните пыль
+                    с вашей экспертности и позвольте ей сделать вас обеспеченным человеком.
+                  </p>
+                  <p>Внедрите технологию в 2023 году.</p>
+                </div>
+                <div class="description__item-price-wrapper">
+                  <div class="description__item-price">
+                    <div class="description__item-price-text">Ценность программы</div>
+                    <div class="description__item-price-num">$1600</div>
+                  </div>
                 </div>
               </div>
-            </div>
+              <div class="description__item swiper-slide">
+                <div class="description__item-title">Распаковка личности + экспертности</div>
+                <div class="description__item-text">
+                  <p>
+                    Пройдите от поиска ниши до первых 300 000 руб. на экспертности. Пройдите по
+                    коучинговому процессу распаковки экспертности и поймите настоящую ценность того,
+                    что знаете и умеете. У вас появится непоколебимая уверенность в своей
+                    экспертности.
+                  </p>
+                </div>
+                <div class="description__item-price-wrapper">
+                  <div class="description__item-price">
+                    <div class="description__item-price-text">Ценность программы</div>
+                    <div class="description__item-price-num">$649</div>
+                  </div>
+                </div>
+              </div>
 
-            <div class="description__item">
-              <div class="description__item-title">Большая игра в МЛМ</div>
-              <div class="description__item-text">
-                <p>
-                  Запись модулей самой мощной программы по созданию системы вовлечения и
-                  спонсирования людей в Ваш бизнес через Интернет от Артёма Нестеренко. Примените
-                  знания, собранные Артемом и отточенные на сотнях бизнесов, чтобы зарабатывать в
-                  первый же месяц.
-                </p>
-              </div>
-              <div class="description__item-price-wrapper">
-                <div class="description__item-price">
-                  <div class="description__item-price-text">Ценность программы</div>
-                  <div class="description__item-price-num">$560</div>
+              <div class="description__item swiper-slide">
+                <div class="description__item-title">Большая игра в МЛМ</div>
+                <div class="description__item-text">
+                  <p>
+                    Запись модулей самой мощной программы по созданию системы вовлечения и
+                    спонсирования людей в Ваш бизнес через Интернет от Артёма Нестеренко. Примените
+                    знания, собранные Артемом и отточенные на сотнях бизнесов, чтобы зарабатывать в
+                    первый же месяц.
+                  </p>
+                </div>
+                <div class="description__item-price-wrapper">
+                  <div class="description__item-price">
+                    <div class="description__item-price-text">Ценность программы</div>
+                    <div class="description__item-price-num">$560</div>
+                  </div>
                 </div>
               </div>
-            </div>
 
-            <div class="description__item">
-              <div class="description__item-title">Академия высокооплачиваемых спикеров</div>
-              <div class="description__item-text">
-                <p>
-                  2-х месячная программа о том, как продавать на большие аудитории со сцены или на
-                  вебинарах.
-                </p>
-              </div>
-              <div class="description__item-price-wrapper">
-                <div class="description__item-price">
-                  <div class="description__item-price-text">Ценность программы</div>
-                  <div class="description__item-price-num">$375</div>
+              <div class="description__item swiper-slide">
+                <div class="description__item-title">Академия высокооплачиваемых спикеров</div>
+                <div class="description__item-text">
+                  <p>
+                    2-х месячная программа о том, как продавать на большие аудитории со сцены или на
+                    вебинарах.
+                  </p>
+                </div>
+                <div class="description__item-price-wrapper">
+                  <div class="description__item-price">
+                    <div class="description__item-price-text">Ценность программы</div>
+                    <div class="description__item-price-num">$375</div>
+                  </div>
                 </div>
               </div>
-            </div>
-            <div class="description__item">
-              <div class="description__item-title">Спикер нового поколения</div>
-              <div class="description__item-text">
-                <p>
-                  Обновленная 2-х месячная программа о том, как продавать на большие аудитории со
-                  сцены или на вебинарах.
-                </p>
-              </div>
-              <div class="description__item-price-wrapper">
-                <div class="description__item-price">
-                  <div class="description__item-price-text">Ценность программы</div>
-                  <div class="description__item-price-num">$290</div>
+              <div class="description__item swiper-slide">
+                <div class="description__item-title">Спикер нового поколения</div>
+                <div class="description__item-text">
+                  <p>
+                    Обновленная 2-х месячная программа о том, как продавать на большие аудитории со
+                    сцены или на вебинарах.
+                  </p>
+                </div>
+                <div class="description__item-price-wrapper">
+                  <div class="description__item-price">
+                    <div class="description__item-price-text">Ценность программы</div>
+                    <div class="description__item-price-num">$290</div>
+                  </div>
                 </div>
               </div>
             </div>
@@ -635,6 +743,7 @@
       </form>
     </div>
 
+    <script src="js/swiper.js"></script>
     <script src="js/main.js"></script>
   </body>
 </html>
